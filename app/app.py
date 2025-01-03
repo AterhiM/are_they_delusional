@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import json
 import scipy.stats as stats
+import os
+data_path = os.path.join(os.path.dirname(__file__), "../data/final")
 
 def set_page_config():
     st.set_page_config(
@@ -74,13 +76,13 @@ def load_and_process_data(target_gender):
         final_df = pd.DataFrame(columns=["Indicator", "Value/Distribution"])
         
         # Load all datasets
-        with open("../data/final/age_gender_distribution.json", 'r') as f:
+        with open(os.path.join(data_path, "age_gender_distribution.json"), 'r') as f:
             age_gender_df = json.load(f)
-        with open("../data/final/income_distribution.json", 'r') as f:
+        with open(f"{data_path}/income_distribution.json", 'r') as f:
             income_df = json.load(f)
-        with open("../data/final/percentages_result.json", 'r') as f:
+        with open(f"{data_path}/percentages_result.json", 'r') as f:
             percentages_df = json.load(f)
-        
+
         # Get gender-specific anthropometric data
         anthro_data = get_gender_specific_data(percentages_df, target_gender)
         
@@ -277,7 +279,7 @@ def main():
     
     # Add credits/footer in sidebar
     st.sidebar.markdown("---")
-    st.sidebar.caption("Made with ❤️ using Moroccan demographic data")
+    st.sidebar.caption("*Made with ❤️ and cold, hard to find statistics of Morocco*")
 
 if __name__ == "__main__":
     main()
