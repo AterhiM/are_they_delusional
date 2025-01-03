@@ -74,11 +74,11 @@ def load_and_process_data(target_gender):
         final_df = pd.DataFrame(columns=["Indicator", "Value/Distribution"])
         
         # Load all datasets
-        with open("./age_gender_distribution.json", 'r') as f:
+        with open("../data/final/age_gender_distribution.json", 'r') as f:
             age_gender_df = json.load(f)
-        with open("./income_distribution.json", 'r') as f:
+        with open("../data/final/income_distribution.json", 'r') as f:
             income_df = json.load(f)
-        with open("./percentages_result.json", 'r') as f:
+        with open("../data/final/percentages_result.json", 'r') as f:
             percentages_df = json.load(f)
         
         # Get gender-specific anthropometric data
