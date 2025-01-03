@@ -295,7 +295,7 @@ def render_calculator(target_gender):
 
     # Add Search Button
     st.markdown("---")
-    search_clicked = st.button("🔍 Calculate Your Delusion Score", use_container_width=True)
+    search_clicked = st.button("🔍 Calculate Your Delusion Score", use_container_width=False)
 
     # Calculate and display results only if search is clicked
     if search_clicked:
