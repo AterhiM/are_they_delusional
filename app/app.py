@@ -320,7 +320,10 @@ def render_calculator(target_gender):
         # Calculate final probability using product and normalize to 0-1 scale
         all_probs = [age_prob, income_prob, height_prob, weight_prob, bmi_prob, religion_prob]
         raw_probability = np.prod(all_probs)
-        probability = min(raw_probability / 0.3, 1.0)  # Normalize to 0-1 scale
+        match_probability = min(raw_probability / 0.3, 1.0)  # Normalize to 0-1 scale
+        
+        # Calculate delusion score as inverse of probability
+        delusion_score = 1 - match_probability
         
         # Display results
         st.subheader("📊 The Reality Check")
@@ -333,39 +336,37 @@ def render_calculator(target_gender):
         st.info(f"BMI reality: {bmi_prob:.1%}")
         st.info(f"Religious alignment chances: {religion_prob:.1%}")
 
-        # Overall score with adjusted messages based on normalized probability ranges
-        if probability < 0.033:  # 0-3.3% (was 0-1%)
+        # Overall score with adjusted messages based on delusion score ranges
+        if delusion_score > 0.967:  # > 96.7% delusional
             color = "red"
             message = "Highly Delusional"
-        elif probability < 0.167:  # 3.3-16.7% (was 1-5%)
+        elif delusion_score > 0.833:  # 83.3-96.7% delusional
             color = "orange"
             message = "Mildly Delusional"
-        elif probability < 0.5:  # 16.7-50% (was 5-15%)
+        elif delusion_score > 0.5:  # 50-83.3% delusional
             color = "yellow"
             message = "Mildly Delusional"
-        elif probability < 1.0:  # 50-100% (was 15-30%)
+        elif delusion_score > 0:  # 0-50% delusional
             color = "lightgreen"
             message = "Surprisingly Reasonable"
-        else:  # 100% (was 30%+)
+        else:  # 0% delusional
             color = "green"
             message = "Surprisingly Reasonable"
-
-        # Display both raw and normalized probabilities
+            
         st.markdown(
-            f"<h1 style='color: {color};'>Delusion Score: {probability:.2%} ({message})</h1>",
-            # f"<p style='color: gray;'>Raw Match Probability: {raw_probability:.2%}</p>",
+            f"<h1 style='color: {color};'>Delusion Score: {delusion_score:.2%} ({message})</h1>",
             unsafe_allow_html=True
         )
         
         # Add interpretation with sarcastic touch
         st.subheader("🔮 Professional Opinion")
-        if probability < 0.01:
+        if delusion_score > 0.967:
             st.write("Your standards are so high, they need oxygen masks! Maybe consider returning to Earth?")
-        elif probability < 0.05:
+        elif delusion_score > 0.833:
             st.write("Your standards are in the stratosphere. Time for a reality check!")
-        elif probability < 0.15:
+        elif delusion_score > 0.5:
             st.write("You're walking the fine line between optimistic and delusional. At least you're not alone!")
-        elif probability < 0.30:
+        elif delusion_score > 0:
             st.write("Well, well... looks like someone's being surprisingly reasonable! There might be hope for you.")
         else:
             st.write("Your criteria are actually quite reasonable! Who would have thought?")
