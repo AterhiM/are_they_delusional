@@ -1,0 +1,153 @@
+[
+    {
+        "Indicator": "Gender Ratio",
+        "Category Details": [
+            {
+                "Category": "Female (%)",
+                "Value": 50.2
+            },
+            {
+                "Category": "Male (%)",
+                "Value": 49.8
+            }
+        ]
+    },
+    {
+        "Indicator": "Population",
+        "Category Details": [
+            {
+                "Category": "Urban (%)",
+                "Value": 64.8
+            },
+            {
+                "Category": "Rural (%)",
+                "Value": 35.2
+            }
+        ]
+    },
+    {
+        "Indicator": "Marital Status",
+        "Category Details": [
+            {
+                "Category": "Single (%)",
+                "Value": 34.8
+            },
+            {
+                "Category": "Widowed (%)",
+                "Value": 5.4
+            },
+            {
+                "Category": "Married (%)",
+                "Value": 57.7
+            },
+            {
+                "Category": "Divorced (%)",
+                "Value": 2.2
+            }
+        ]
+    },
+    {
+        "Indicator": "Education Levels",
+        "Category Details": [
+            {
+                "Category": "Literacy Rate (Men, %)",
+                "Value": 87.0
+            },
+            {
+                "Category": "Literacy Rate (Women, %)",
+                "Value": 74.0
+            },
+            {
+                "Category": "Primary School Enrollment (%)",
+                "Value": 94.7
+            }
+        ]
+    },
+    {
+        "Indicator": "Urbanization Rate",
+        "Category Details": [
+            {
+                "Category": "Urban Population (%)",
+                "Value": 64.8
+            },
+            {
+                "Category": "Casablanca-Settat (%)",
+                "Value": 77.8
+            }
+        ]
+    },
+    {
+        "Indicator": "Height",
+        "Category Details": [
+            {
+                "Category": "Male Height (m)",
+                "Value": 1.75
+            },
+            {
+                "Category": "Female Height (m)",
+                "Value": 1.61
+            }
+        ]
+    },
+    {
+        "Indicator": "Weight",
+        "Category Details": [
+            {
+                "Category": "Male Weight (kg)",
+                "Value": 77.1
+            },
+            {
+                "Category": "Female Weight (kg)",
+                "Value": 71.2
+            }
+        ]
+    },
+    {
+        "Indicator": "BMI",
+        "Category Details": [
+            {
+                "Category": "Male BMI",
+                "Value": 25.1
+            },
+            {
+                "Category": "Female BMI",
+                "Value": 27.6
+            }
+        ]
+    },
+    {
+        "Indicator": "Unemployment Rate",
+        "Category Details": [
+            {
+                "Category": "Rate (%)",
+                "Value": 13.6
+            }
+        ]
+    },
+    {
+        "Indicator": "Inflation Rate",
+        "Category Details": [
+            {
+                "Category": "Rate (%)",
+                "Value": 6.8
+            }
+        ]
+    },
+    {
+        "Indicator": "Ethnic Composition",
+        "Category Details": [
+            {
+                "Category": "Arabs (%)",
+                "Value": 67.0
+            },
+            {
+                "Category": "Berbers (%)",
+                "Value": 31.0
+            },
+            {
+                "Category": "Sahrawis (%)",
+                "Value": 2.0
+            }
+        ]
+    }
+]

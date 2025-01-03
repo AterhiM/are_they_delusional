@@ -1,0 +1,184 @@
+[
+    {
+        "Age Range": "15-19",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 8.26
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 8.12
+            }
+        ]
+    },
+    {
+        "Age Range": "20-24",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 8.23
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 8.21
+            }
+        ]
+    },
+    {
+        "Age Range": "25-29",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 7.89
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 8.04
+            }
+        ]
+    },
+    {
+        "Age Range": "30-34",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 7.83
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 8.04
+            }
+        ]
+    },
+    {
+        "Age Range": "35-39",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 7.16
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 7.63
+            }
+        ]
+    },
+    {
+        "Age Range": "40-44",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 6.68
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 7.02
+            }
+        ]
+    },
+    {
+        "Age Range": "45-49",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 6.03
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 6.3
+            }
+        ]
+    },
+    {
+        "Age Range": "50-54",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 5.4
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 5.76
+            }
+        ]
+    },
+    {
+        "Age Range": "55-59",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 4.62
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 5.12
+            }
+        ]
+    },
+    {
+        "Age Range": "60-64",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 4.43
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 5.07
+            }
+        ]
+    },
+    {
+        "Age Range": "65-69",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 3.64
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 4.91
+            }
+        ]
+    },
+    {
+        "Age Range": "70-74",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 2.43
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 4.46
+            }
+        ]
+    },
+    {
+        "Age Range": "75-79",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 1.13
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 3.97
+            }
+        ]
+    },
+    {
+        "Age Range": "80+",
+        "Gender Details": [
+            {
+                "Gender": "Male",
+                "Percentage": 1.03
+            },
+            {
+                "Gender": "Female",
+                "Percentage": 4.49
+            }
+        ]
+    }
+]

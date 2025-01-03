@@ -1,0 +1,87 @@
+[
+    {
+        "Quintile": "First Quintile (20% least wealthy)",
+        "Region Details": [
+            {
+                "Region": "National (in MAD)",
+                "Income": 5998
+            },
+            {
+                "Region": "Urban  (in MAD)",
+                "Income": 7286
+            },
+            {
+                "Region": "Rural (in MAD)",
+                "Income": 4905
+            }
+        ]
+    },
+    {
+        "Quintile": "Second Quintile",
+        "Region Details": [
+            {
+                "Region": "National (in MAD)",
+                "Income": 9852
+            },
+            {
+                "Region": "Urban (in MAD)",
+                "Income": 11974
+            },
+            {
+                "Region": "Rural (in MAD)",
+                "Income": 7664
+            }
+        ]
+    },
+    {
+        "Quintile": "Third Quintile",
+        "Region Details": [
+            {
+                "Region": "National (in MAD)",
+                "Income": 13726
+            },
+            {
+                "Region": "Urban (in MAD)",
+                "Income": 16101
+            },
+            {
+                "Region": "Rural (in MAD)",
+                "Income": 10337
+            }
+        ]
+    },
+    {
+        "Quintile": "Fourth Quintile",
+        "Region Details": [
+            {
+                "Region": "National (in MAD)",
+                "Income": 20733
+            },
+            {
+                "Region": "Urban (in MAD)",
+                "Income": 24567
+            },
+            {
+                "Region": "Rural (in MAD)",
+                "Income": 14252
+            }
+        ]
+    },
+    {
+        "Quintile": "Fifth Quintile (20% wealthiest)",
+        "Region Details": [
+            {
+                "Region": "National (in MAD)",
+                "Income": 57514
+            },
+            {
+                "Region": "Urban (in MAD)",
+                "Income": 65070
+            },
+            {
+                "Region": "Rural (in MAD)",
+                "Income": 40693
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "Indicator": "Religious Affiliation",
+        "Category Details": [
+            {
+                "Category": "Sunni Muslims (%)",
+                "Population": "approximately 36.4 million people (99% of 36.7 million)"
+            },
+            {
+                "Category": "Shia Muslims (%)",
+                "Population": "Estimated at around 36,700 people (0.1% of 36.7 million)"
+            },
+            {
+                "Category": "Jews (People)",
+                "Population": "Estimated at 3,500 people"
+            },
+            {
+                "Category": "Christians (Estimate)",
+                "Population": "Estimated at between 1,500 and 30,000 people"
+            },
+            {
+                "Category": "Baha'is and Other Groups",
+                "Population": "Less than 1% of the population"
+            }
+        ]
+    }
+]
