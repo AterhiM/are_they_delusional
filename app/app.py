@@ -358,6 +358,29 @@ def render_calculator(target_gender):
             unsafe_allow_html=True
         )
         
+        if delusion_score > 0.8:  # For highly delusional scores
+            # Add a musical touch with a relevant song
+            st.markdown("---")
+            st.subheader("🎵 Your Theme Song")
+
+            st.write("Your criteria remind us of the famous Moroccan song 'Weld Nass' - you know, the one about *very specific* partner requirements... 😉")
+            
+            # Add YouTube video embed
+            st.markdown("""
+                <iframe 
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/kIy8oU0rYdo?si=-jzX7_NA1UDBkwHb" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen
+                ></iframe>
+            """, unsafe_allow_html=True)
+
+            st.caption("*Shout out to **Zzak** [https://github.com/zzak00](https://github.com/zzak00) for the inspiration!*")
+        
         # Add interpretation with sarcastic touch
         st.subheader("🔮 Professional Opinion")
         if delusion_score > 0.967:
